@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+      header {
+        background-color: #000000;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        position: sticky;
+      }
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+        background-color: whitesmoke;
+        margin: 0;
+        padding: 0;
+      }
+      .cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+      }
+      .member-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 20px;
+        max-width: 300px;
+        margin: auto;
+        text-align: left;
+      }
+      .member-card h2 {
+        margin-top: 0;
+      }
+      .member-card button {
+        background-color: black;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .member-card button a {
+        color: white;
+        text-decoration: none;
+      }
+      .id {
+        color: gray;
+        font-size: 0.9em;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <nav>FORGE 2.0</nav>
+  </header>
+  <div class="cards-container">
+    <section class="member-card">
+      <h2>David Chisenga</h2>
+      <p class="id">2410348</p>
+      <p>Second Year Software Engineer Student</p>
+      <p><strong>Role: </strong>Group Leader</p>
+      <button><a href="#">GitHub Profile</a></button>
+    </section>
+    <section class="member-card">
+      <h2>Martha Chooka</h2>
+      <p class="id">2410008</p>
+      <p>Second Year Software Engineer Student</p>
+      <p><strong>Role: </strong>Designer</p>
+      <button><a href="https://github.com/Martha-23">GitHub Profile</a></button>
+    </section>
+    <section class="member-card">
+      
+    </section>
+  </div>
+</body>
+</html>
 
