@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+      header {
+        background-color: #000000;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        position: sticky;
+      }
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+        background-color: whitesmoke;
+        margin: 0;
+        padding: 0;
+      }
+      .cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+      }
+      .member-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 20px;
+        max-width: 300px;
+        margin: auto;
+        text-align: left;
+      }
+      .member-card h2 {
+        margin-top: 0;
+      }
+      .member-card button {
+        background-color: black;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .member-card button a {
+        color: white;
+        text-decoration: none;
+      }
+      .id {
+        color: gray;
+        font-size: 0.9em;
+      }
+      /* Container Styling */
+#contact {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading */
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2em;
+}
+
+/* Paragraph */
+#contact p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 1em;
+}
+
+/* Form Elements */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact label {
+  font-weight: bold;
+  color: #555;
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* Button */
+#contact button {
+  padding: 14px;
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: #16181a;
+}
+        .services-section {
+            text-align: center;
+            background-color: #f4f4f9; 
+            color: #333; 
+            padding: 40px 20px; 
+            font-family: Arial, sans-serif;
+        }
+
+        .service-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px auto 0; 
+            max-width: 600px; 
+        }
+
+        
+        .service-list li {
+            background-color: #fff; 
+            margin-bottom: 10px; 
+            padding: 15px;
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            text-align: left; 
+        }
+
+     
+        .services-section h2 {
+            font-size: 2.2em;
+            color: #5b5b9e; 
+            margin-bottom: 5px;
+        }
+        
+        
+        .service-list li strong {
+            color: #5b5b9e;
+            display: block; 
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+   
+      
+    </style>
+</head>
+<body>
+  <header>
+    <nav>FORGE 2.0</nav>
+  </header>
+  <div class="cards-container">
+    <section class="member-card">
+      <h2>David Chisenga</h2>
+      <p class="id">2410348</p>
+      <p>Second Year Software Engineer Student</p>
+      <p><strong>Role: </strong>Group Leader</p>
+      <button><a href="#">GitHub Profile</a></button>
+    </section>
+    <section class="member-card">
+      <h2>Martha Chooka</h2>
+      <p class="id">2410008</p>
+      <p>Second Year Software Engineer Student</p>
+      <p><strong>Role: </strong>Designer</p>
+      <button><a href="https://github.com/Martha-23">GitHub Profile</a></button>
+    </section>
+    <section class="member-card">
+       <h2>Davies Manchishi</h2>
+      <p class="id">2410093</p>
+      <p>Second Year Software Engineer Student</p>
+      <p><strong>Role: </strong>Project Manager</p>
+      <button><a href="https://github.com/childbaby261-afk">GitHub Profile</a></button>
+    </section>
+  </div>
+      
+<section class="services-section">
+    <h2>Our Services</h2>
+    <p>Here's a list of what we can do for you.</p>
+
+    <ul class="service-list">
+        <li>
+            <strong>Web Design & Development</strong>
+            We create modern, responsive, and fast websites tailored to your needs.
+        </li>
+        <li>
+            <strong>E-commerce Solutions</strong>
+            Get a powerful online store to sell your products and grow your business.
+        </li>
+        <li>
+            <strong>Branding & Identity</strong>
+            Develop a unique visual identity that makes your brand stand out.
+        </li>
+        <li>
+            <strong>SEO & Digital Marketing</strong>
+            Improve your search rankings and reach a wider audience online.
+        </li>
+    </ul>
+</section>
+
+
+
+     <section id="contact">
+  <h2>Contact Us</h2>
+  <p>We'd love to hear from you! Fill out the form below and we'll get back to you soon.</p>
+  
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+    
+</body>
+</html>
+
