@@ -4,87 +4,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <style>
-      header {
-        background-color: #000000;
-        color: white;
-        padding: 20px;
-        text-align: center;
-        font-size: 1.5em;
-        font-weight: bold;
-        position: sticky;
-      }
-      body {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
-        background-color: whitesmoke;
-        margin: 0;
-        padding: 0;
-      }
-      .cards-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 20px;
-      }
-      .member-card {
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        padding: 20px;
-        max-width: 300px;
-        margin: auto;
-        text-align: left;
-      }
-      .member-card h2 {
-        margin-top: 0;
-      }
-      .member-card button {
-        background-color: black;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      .member-card button a {
-        color: white;
-        text-decoration: none;
-      }
-      .id {
-        color: gray;
-        font-size: 0.9em;
-      }
-    </style>
+    <title>FORGE 2.0 - Empowering Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>FORGE 2.0</nav>
-  </header>
-  <div class="cards-container">
-    <section class="member-card">
-      <h2>David Chisenga</h2>
-      <p class="id">2410348</p>
-      <p>Second Year Software Engineer Student</p>
-      <p><strong>Role: </strong>Group Leader</p>
-      <button><a href="#">GitHub Profile</a></button>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">FORGE 2.0</a>
+            <div class="mobile-menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Innovate. Create. Transform.</h1>
+            <p class="hero-text">Welcome to FORGE 2.0, where passionate developers turn innovative ideas into reality.</p>
+            <a href="#featured-projects" class="cta-button">View Our Projects</a>
+        </div>
     </section>
-    <section class="member-card">
-      <h2>Martha Chooka</h2>
-      <p class="id">2410008</p>
-      <p>Second Year Software Engineer Student</p>
-      <p><strong>Role: </strong>Designer</p>
-      <button><a href="https://github.com/Martha-23">GitHub Profile</a></button>
+
+    <section id="featured-projects" class="featured-projects animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="web-development-3d-icon-png-download-4674328.png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Development</h3>
+                        <p>Creating responsive and interactive web applications using modern technologies.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="app-development-3d-icon-png-download-6716446.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mobile Apps</h3>
+                        <p>Developing innovative mobile solutions for iOS and Android platforms.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="ui-design-3d-icon-png-download-5846532.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>UI/UX Design</h3>
+                        <p>Creating beautiful and intuitive user interfaces for digital products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="member-card">
-      <h2>Davies Manchishi</h2>
-      <p class="id">2410093</p>
-      <p>Second Year Software Engineer Student</p>
-      <p><strong>Role: </strong>Project Manager</p>
-      <button><a href="https://github.com/childbaby261-afk">GitHub Profile</a></button>
+
+    <section class="tech-stack animate-on-scroll">
+        <div class="container">
+            <h2 class="section-title">Our Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
     </section>
-  </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FORGE 2.0</h4>
+                    <p>Empowering innovation and creativity</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><a href="davidchisenga21@gmail.com">David Chisenga</a></p>
+                    <p><a href="marthachooka23@gmail.com">Martha Chooka</a></p>
+                    <p><a href="#">Davies Manchishi</a></p>
+                    <br>
+                    <p>Phone: +260 761693297</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FORGE 2.0. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
